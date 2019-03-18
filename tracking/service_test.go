@@ -3,8 +3,8 @@ package tracking
 import (
 	"testing"
 
-	shipping "github.com/marcusolsson/goddd"
-	"github.com/marcusolsson/goddd/mock"
+	shipping "github.com/dynamicguy/goddd"
+	"github.com/dynamicguy/goddd/mock"
 )
 
 func TestTrack(t *testing.T) {

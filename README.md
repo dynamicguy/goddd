@@ -1,8 +1,8 @@
 # GoDDD 
 
 [![Build Status](https://travis-ci.org/marcusolsson/goddd.svg?branch=master)](https://travis-ci.org/marcusolsson/goddd)
-[![GoDoc](https://img.shields.io/badge/godoc-reference-blue.svg?style=flat)](https://godoc.org/github.com/marcusolsson/goddd)
-[![Go Report Card](https://goreportcard.com/badge/github.com/marcusolsson/goddd)](https://goreportcard.com/report/github.com/marcusolsson/goddd)
+[![GoDoc](https://img.shields.io/badge/godoc-reference-blue.svg?style=flat)](https://godoc.org/github.com/dynamicguy/goddd)
+[![Go Report Card](https://goreportcard.com/badge/github.com/dynamicguy/goddd)](https://goreportcard.com/report/github.com/dynamicguy/goddd)
 [![License MIT](https://img.shields.io/badge/license-MIT-lightgrey.svg?style=flat)](LICENSE)
 ![stability-unstable](https://img.shields.io/badge/stability-unstable-yellow.svg)
 
@@ -71,8 +71,8 @@ curl localhost:8080/booking/v1/cargos/ABC123/request_routes
 If you want to fork the repository, follow these step to avoid having to rewrite the import paths.
 
 ```shell
-go get github.com/marcusolsson/goddd
-cd $GOPATH/src/github.com/marcusolsson/goddd
+go get github.com/dynamicguy/goddd
+cd $GOPATH/src/github.com/dynamicguy/goddd
 git remote add fork git://github.com:<yourname>/goddd.git
 
 # commit your changes

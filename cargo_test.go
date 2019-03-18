@@ -10,7 +10,7 @@ func TestConstruction(t *testing.T) {
 	spec := RouteSpecification{
 		Origin:          SESTO,
 		Destination:     AUMEL,
-		ArrivalDeadline: time.Date(2009, time.March, 13, 0, 0, 0, 0, time.UTC),
+		ArrivalDeadline: time.Date(2019, time.March, 13, 0, 0, 0, 0, time.UTC),
 	}
 
 	c := NewCargo(id, spec)

@@ -8,7 +8,7 @@ import (
 	"github.com/go-chi/chi"
 	kitlog "github.com/go-kit/kit/log"
 
-	"github.com/marcusolsson/goddd/tracking"
+	"github.com/dynamicguy/goddd/tracking"
 )
 
 type trackingHandler struct {

@@ -9,10 +9,10 @@ import (
 	kitlog "github.com/go-kit/kit/log"
 	"github.com/prometheus/client_golang/prometheus/promhttp"
 
-	shipping "github.com/marcusolsson/goddd"
-	"github.com/marcusolsson/goddd/booking"
-	"github.com/marcusolsson/goddd/handling"
-	"github.com/marcusolsson/goddd/tracking"
+	shipping "github.com/dynamicguy/goddd"
+	"github.com/dynamicguy/goddd/booking"
+	"github.com/dynamicguy/goddd/handling"
+	"github.com/dynamicguy/goddd/tracking"
 )
 
 // Server holds the dependencies for a HTTP server.

@@ -4,7 +4,7 @@ package inmem
 import (
 	"sync"
 
-	shipping "github.com/marcusolsson/goddd"
+	shipping "github.com/dynamicguy/goddd"
 )
 
 type cargoRepository struct {

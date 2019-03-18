@@ -8,7 +8,7 @@ import (
 	"strings"
 	"time"
 
-	shipping "github.com/marcusolsson/goddd"
+	shipping "github.com/dynamicguy/goddd"
 )
 
 // ErrInvalidArgument is returned when one or more arguments are invalid.

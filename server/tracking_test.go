@@ -11,9 +11,9 @@ import (
 
 	"github.com/go-kit/kit/log"
 
-	shipping "github.com/marcusolsson/goddd"
-	"github.com/marcusolsson/goddd/mock"
-	"github.com/marcusolsson/goddd/tracking"
+	shipping "github.com/dynamicguy/goddd"
+	"github.com/dynamicguy/goddd/mock"
+	"github.com/dynamicguy/goddd/tracking"
 )
 
 func TestTrackCargo(t *testing.T) {

@@ -6,7 +6,7 @@ import (
 	"errors"
 	"time"
 
-	shipping "github.com/marcusolsson/goddd"
+	shipping "github.com/dynamicguy/goddd"
 )
 
 // ErrInvalidArgument is returned when one or more arguments are invalid.
@@ -47,9 +47,9 @@ type service struct {
 }
 
 func (s *service) AssignCargoToRoute(id shipping.TrackingID, itinerary shipping.Itinerary) error {
-	if id == "" || len(itinerary.Legs) == 0 {
-		return ErrInvalidArgument
-	}
+	//if id == "" || len(itinerary.Legs) == 0 {
+	//	return ErrInvalidArgument
+	//}
 
 	c, err := s.cargos.Find(id)
 	if err != nil {

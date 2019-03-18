@@ -6,8 +6,8 @@ import (
 	"errors"
 	"time"
 
-	shipping "github.com/marcusolsson/goddd"
-	"github.com/marcusolsson/goddd/inspection"
+	shipping "github.com/dynamicguy/goddd"
+	"github.com/dynamicguy/goddd/inspection"
 )
 
 // ErrInvalidArgument is returned when one or more arguments are invalid.

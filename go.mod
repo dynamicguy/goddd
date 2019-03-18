@@ -1,4 +1,4 @@
-module github.com/marcusolsson/goddd
+module github.com/dynamicguy/goddd
 
 require (
 	github.com/VividCortex/gohistogram v1.0.0 // indirect
